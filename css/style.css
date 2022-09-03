@@ -253,6 +253,36 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+.project{
+	width: 100%;
+	height: 290px;
+	background: #1010109;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.project p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.project .button-two{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.project .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
 footer{
 	position: relative;
 	width: 100%;
